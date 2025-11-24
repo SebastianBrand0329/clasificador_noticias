@@ -22,7 +22,7 @@ st.caption("Pega el texto de una noticia y obtén su categoría estimada.")
 
 # Configuración de la API Key de Google de forma segura
 try:
-    os.environ['GOOGLE_API_KEY'] = st.secrets['AIzaSyA4sQCZpJaV-xPvqxjQy1EUg1nQlBzOlpE']
+    os.environ['GOOGLE_API_KEY'] = 'AIzaSyA4sQCZpJaV-xPvqxjQy1EUg1nQlBzOlpE'
 except:
     st.info("API Key no encontrada en los secrets. Asegúrate de configurar tu archivo secrets.toml.")
 
